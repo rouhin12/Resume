@@ -52,14 +52,6 @@ May 2024 - Present | Mumbai, Maharashtra, India
 - Working with the GISE Hub team on innovative projects involving the analysis and application of geospatial data.
 - Enhancing expertise in geospatial and software development through hands-on projects.
 
-Rotaract Club of Western Suburbs
-Joint Secretary
-June 2023 - June 2024 | Mumbai, Maharashtra, India
-
-Rotaract Club of Bombay West
-Partners In Services Director
-May 2022 - January 2023 | Mumbai, Maharashtra, India
-
 Freightwalla
 Sales and Strategy Intern
 June 2022 - August 2022 | Mumbai, Maharashtra, India
@@ -67,6 +59,15 @@ June 2022 - August 2022 | Mumbai, Maharashtra, India
 - Gained insights into best practices and strategies for maximizing sales revenue.
 - Assisted in maintaining customer relationships through follow-up calls.
 - Managed customer expectations and supported client acquisition strategies.""")
+
+pdf.add_section('Volunteer Work', 
+"""Rotaract Club of Western Suburbs
+Joint Secretary
+June 2023 - June 2024 | Mumbai, Maharashtra, India
+
+Rotaract Club of Bombay West
+Partners In Services Director
+May 2022 - January 2023 | Mumbai, Maharashtra, India""")
 
 pdf.add_section('Skills', 
 """Programming Languages:
@@ -76,11 +77,13 @@ pdf.add_section('Skills',
 - Java
 - HTML, JavaScript, AngularJS, NodeJS
 - SQL
+- Django
 
 Top Skills:
 - Software as a Service (SaaS)
 - SaaS Sales
-- Strategy""")
+- Strategy
+- Software Devlopment""")
 
 pdf.add_section('Extracurricular Activities', 
 """Head of R&D, Tark
@@ -95,8 +98,8 @@ Hackathons
 Model United Nations (MUNs)
 - Avid MUNner, delegated in over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
 
-# Save the PDF to a file
-output_path = "/mnt/data/Rouhin_Gandhi_Resume_Formatted.pdf"
+# Save the PDF to a specified path
+output_path = "/home/rouhin/resume builder/Rouhin_Gandhi_Resume_Formatted.pdf"
 pdf.output(output_path)
 
 output_path
