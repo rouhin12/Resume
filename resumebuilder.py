@@ -1,4 +1,5 @@
 from fpdf import FPDF
+import os
 
 class PDF(FPDF):
     def header(self):
@@ -36,21 +37,19 @@ pdf.cell(0, 10, 'Email: rouhingandhi123@gmail.com', 0, 1, 'C')
 pdf.cell(0, 10, 'LinkedIn: linkedin.com/in/rouhin', 0, 1, 'C')
 pdf.ln(10)
 
-# Adding sections without new pages
+# Adding detailed sections
 pdf.add_section('Education', 
 """SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering
-Bachelor of Technology (BTech), Computer Engineering (2022 - 2026)
-- Relevant Coursework: [List relevant courses if available]
-
-Utpal Shanghvi School
-IGCSE, Science (January 2007 - June 2020)""")
+BTech, Computer Engineering (2022 - 2026)
+- Relevant Coursework: Algorithms, Data Structures, Web Development.""")
 
 pdf.add_section('Experience', 
 """Indian Institute of Technology, Bombay
-Geospatial and Software Intern
-May 2024 - Present | Mumbai, Maharashtra, India
-- Working with the GISE Hub team on innovative projects involving the analysis and application of geospatial data.
-- Enhancing expertise in geospatial and software development through hands-on projects.
+Geospatial and Software Intern (May 2024 - Present)
+- Developed tools for geospatial data analysis using Python and R.
+- Collaborated with the GISE Hub team on innovative projects, enhancing geospatial data visualization.
+- Assisted in developing GIS applications for real-time data analysis.
+
 
 Freightwalla
 Sales and Strategy Intern
@@ -61,29 +60,13 @@ June 2022 - August 2022 | Mumbai, Maharashtra, India
 - Managed customer expectations and supported client acquisition strategies.""")
 
 pdf.add_section('Volunteer Work', 
-"""Rotaract Club of Western Suburbs
-Joint Secretary
-June 2023 - June 2024 | Mumbai, Maharashtra, India
-
-Rotaract Club of Bombay West
-Partners In Services Director
-May 2022 - January 2023 | Mumbai, Maharashtra, India""")
+"""Rotaract Club of Western Suburbs, Joint Secretary (June 2023 - June 2024)
+Rotaract Club of Bombay West, Partners In Services Director (May 2022 - Jan 2023)""")
 
 pdf.add_section('Skills', 
-"""Programming Languages:
-- C++
-- Python
-- R
-- Java
-- HTML, JavaScript, AngularJS, NodeJS
-- SQL
-- Django
+"""Programming: C++, Python, R, Java, HTML, JavaScript, SQL, Django
+Top Skills: SaaS, Strategy, Software Development""")
 
-Top Skills:
-- Software as a Service (SaaS)
-- SaaS Sales
-- Strategy
-- Software Devlopment""")
 
 pdf.add_section('Extracurricular Activities', 
 """Head of R&D, Tark
@@ -99,7 +82,7 @@ Model United Nations (MUNs)
 - Avid MUNner, delegated in over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
 
 # Save the PDF to a specified path
-output_path = "/home/rouhin/resume builder/Rouhin_Gandhi_Resume_Formatted.pdf"
+output_path = "E:\\Rouhin_resume.pdf"
 pdf.output(output_path)
 
 output_path
