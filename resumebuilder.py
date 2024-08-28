@@ -34,26 +34,26 @@ pdf.set_font('Times', '', 12)
 pdf.cell(0, 10, 'Birth Date: 19/09/2004', 0, 1, 'C')
 pdf.cell(0, 10, 'Phone: +91 9967350001', 0, 1, 'C')
 pdf.cell(0, 10, 'Email: rouhingandhi123@gmail.com', 0, 1, 'C')
-pdf.cell(0, 10, 'LinkedIn: linkedin.com/in/rouhin', 0, 1, 'C')
+pdf.cell(0, 10, 'LinkedIn: https://linkedin.com/in/rouhin', 0, 1, 'C')
+pdf.cell(0, 10, 'Github: https://github.com/rouhin12', 0, 1, 'C')
 pdf.ln(10)
 
 # Adding detailed sections
 pdf.add_section('Education', 
 """SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering
-BTech, Computer Engineering (2022 - 2026)
-- Relevant Coursework: Algorithms, Data Structures, Web Development.""")
+    BTech, Computer Engineering (2022 - 2026)
+- Relevant Coursework: Algorithms, Data Structures, Web Development, etc.""")
 
 pdf.add_section('Experience', 
-"""Indian Institute of Technology, Bombay
-Geospatial and Software Intern (May 2024 - July 2024)
-- Developed tools for geospatial data analysis using Python and R.
+"""GISE Hub, IIT-Bombay
+Geospatial and Software Intern | May 2024 - July 2024 | Mumbai, Maharashtra, India
+- Developed tools for geospatial data analysis using Python.
 - Collaborated with the GISE Hub team on innovative projects, enhancing geospatial data visualization.
 - Assisted in developing GIS applications for real-time data analysis.
-
+- Developed software web applications using Django.
 
 Freightwalla
-Sales and Strategy Intern
-June 2022 - August 2022 | Mumbai, Maharashtra, India
+Sales and Strategy Intern | June 2022 - August 2022 | Mumbai, Maharashtra, India
 - Supported sales team with administrative assistance and coordinated paperwork.
 - Gained insights into best practices and strategies for maximizing sales revenue.
 - Assisted in maintaining customer relationships through follow-up calls.
@@ -67,7 +67,6 @@ pdf.add_section('Skills',
 """Programming: C++, Python, R, Java, HTML, JavaScript, SQL, Django
 Top Skills: SaaS, Strategy, Software Development""")
 
-
 pdf.add_section('Extracurricular Activities', 
 """Head of R&D, Tark
 - Founded and led a successful college-wide debating society, showcasing leadership and communication skills.
@@ -79,7 +78,7 @@ Hackathons
 - Participated in multiple hackathons and secured runners-up position in the same.
 
 Model United Nations (MUNs)
-- Avid MUNner, delegated in over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
+- Avid MUNner, delegated over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
 
 # Save the PDF to a specified path
 output_path = "E:\\Rouhin Projects\\Resume\\Rouhin_Gandhi_Resume.pdf"
