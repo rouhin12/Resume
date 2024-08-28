@@ -45,7 +45,7 @@ BTech, Computer Engineering (2022 - 2026)
 
 pdf.add_section('Experience', 
 """Indian Institute of Technology, Bombay
-Geospatial and Software Intern (May 2024 - Present)
+Geospatial and Software Intern (May 2024 - July 2024)
 - Developed tools for geospatial data analysis using Python and R.
 - Collaborated with the GISE Hub team on innovative projects, enhancing geospatial data visualization.
 - Assisted in developing GIS applications for real-time data analysis.
@@ -82,7 +82,7 @@ Model United Nations (MUNs)
 - Avid MUNner, delegated in over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
 
 # Save the PDF to a specified path
-output_path = "E:\\Rouhin_resume.pdf"
+output_path = "E:\\Rouhin Projects\\Resume\\Rouhin_Gandhi_Resume.pdf"
 pdf.output(output_path)
 
 output_path
