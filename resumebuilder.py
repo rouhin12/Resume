@@ -24,48 +24,42 @@ pdf.set_font('Times', 'B', 16)
 pdf.cell(0, 10, 'ROUHIN GANDHI', 0, 1, 'C')
 pdf.set_font('Times', '', 12)
 pdf.cell(0, 10, 'Birth Date: 19/09/2004 | Phone: +91 9967350001', 0, 1, 'C')
-pdf.cell(0, 10, 'Email: rouhingandhi123@gmail.com | LinkedIn: linkedin.com/in/rouhin', 0, 1, 'C')
-pdf.cell(0, 10, 'Github: github.com/rouhin12', 0, 1, 'C')
+pdf.cell(0, 10, 'Email: rouhingandhi123@gmail.com | LinkedIn: https://linkedin.com/in/rouhin', 0, 1, 'C')
+pdf.cell(0, 10, 'Github: https://github.com/rouhin12', 0, 1, 'C')
 pdf.ln(10)
 
 # Sections
 pdf.add_section('Education', 
     "SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering\n"
     "BTech, Computer Engineering (2022 - 2026)\n"
-    "- Relevant Coursework: Algorithms, Data Structures, Web Development, Databases, AI")
+    "- Relevant Coursework: Algorithms, Data Structures, Web Development")
 
 pdf.add_section('Experience', 
     "GISE Hub, IIT-Bombay\nGeospatial and Software Intern (May 2024 - July 2024)\n"
-    "- Developed geospatial data analysis tools using Python, enhancing spatial visualization.\n"
-    "- Worked on GIS applications for real-time data, improving accuracy in data insights.\n"
-    "- Contributed to Python-based automation for large-scale data processing.\n\n"
+    "- Developed innovative GIS tools and applications using Python and Django, improving user accessibility.\n"
+    "- Enhanced real-time geospatial data analysis, enabling quicker decision-making for ongoing projects.\n"
+    "- Collaborated with multidisciplinary teams to integrate data visualization techniques, enhancing project presentations.\n\n"
     "Freightwalla\nSales and Strategy Intern (June 2022 - Aug 2022)\n"
-    "- Assisted in sales strategies and market research, helping optimize client acquisition.\n"
-    "- Managed administrative tasks, enhancing team efficiency and client onboarding process.")
+    "- Supported the sales team by conducting market research to identify potential clients and industry trends.\n"
+    "- Managed client acquisition processes, ensuring smooth onboarding and satisfaction.\n"
+    "- Streamlined administrative tasks, improving team efficiency and coordination in project delivery.\n\n")
 
 pdf.add_section('Projects', 
-    "Bladder Filling Prediction during Radiotherapy using GANs (Sep 2024 - Present)\n"
-    "- Collaborating on AI research to predict bladder volume changes in cervical cancer radiotherapy patients.\n"
-    "- Pre-processed medical imaging data and trained models for accurate volume predictions.\n"
-    "- Developed AI models to assist radiation oncologists in minimizing side effects.\n\n"
-    "Web-based GIS Platform (2023)\n"
-    "- Built an interactive GIS platform using Leaflet.js for real-time spatial queries.\n"
-    "- Integrated geolocation features and dynamic data layers to enhance user experience.")
-
+    "Bladder Filling Prediction in Radiotherapy using GANs (Sep 2024 - Present)\n"
+    "- Collaborating on an AI-driven research project to predict bladder volume changes during radiotherapy.\n"
+    "- Preprocessing medical imaging data for GAN training, ensuring high-quality input for model accuracy.\n"
+    "- Developing and fine-tuning predictive models to assist radiation oncologists in minimizing side effects and optimizing treatment plans.")
 pdf.add_section('Volunteer Work', 
     "Rotaract Club of Western Suburbs, Joint Secretary (2023 - 2024)\n"
-    "- Managed club operations, coordinated events, and expanded member outreach.\n\n"
-    "Rotaract Club of Bombay West, Partners In Services Director (2022 - 2023)\n"
-    "- Led community service projects, liaised with partners for successful project execution.")
+    "Rotaract Club of Bombay West, Partners In Services Director (2022 - 2023)")
 
 pdf.add_section('Skills', 
-    "Programming Languages: C++, Python, Java, HTML, JavaScript, SQL, Django\n"
-    "Technical Skills: GIS, Web Development, Data Analysis, Machine Learning\n"
-    "Soft Skills: Leadership, Teamwork, Communication, Strategy")
+    "Programming: C++, Python, JavaScript, SQL, Django\n"
+    "Top Skills: SaaS, Strategy, Software Development")
 
 pdf.add_section('Extracurricular Activities', 
     "Head of R&D, Tark\n"
-    "- Founded and led a debating society, organizing college-wide debate tournaments.\n\n"
+    "- Founded and led a college debating society, organizing workshops and competitions.\n\n"
     "Core Council, LAIMUN Society\n"
     "- Helped establish and run an international MUN society, expanding its presence in India.\n\n"
     "Hackathons\n"
