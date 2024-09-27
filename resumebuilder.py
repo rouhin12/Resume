@@ -58,7 +58,7 @@ Sales and Strategy Intern | June 2022 - August 2022 | Mumbai, Maharashtra, India
 - Managed customer expectations and supported client acquisition strategies.""")
 
 pdf.add_section('Projects', 
-"""Bladder Filling from Initiation to Completion of Radiotherapy in Women with Cervical Cancer using GANs | May 2024 - Present
+"""Bladder Filling from Initiation to Completion of Radiotherapy in Women with Cervical Cancer using GANs | September 2024 - Present
 - Collaborating with a team of researchers to use AI (Generative Adversarial Networks) for predicting bladder volume variations in cervical cancer patients undergoing radiotherapy.
 - Collected and pre-processed CT scan data for training AI models to enhance radiotherapy treatment planning.
 - Developed an AI model to accurately predict future bladder volume changes and assist in improving radiation targeting while minimizing side effects.
