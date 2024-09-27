@@ -55,9 +55,14 @@ Geospatial and Software Intern | May 2024 - July 2024 | Mumbai, Maharashtra, Ind
 Freightwalla
 Sales and Strategy Intern | June 2022 - August 2022 | Mumbai, Maharashtra, India
 - Supported sales team with administrative assistance and coordinated paperwork.
-- Gained insights into best practices and strategies for maximizing sales revenue.
-- Assisted in maintaining customer relationships through follow-up calls.
 - Managed customer expectations and supported client acquisition strategies.""")
+
+pdf.add_section('Projects', 
+"""Bladder Filling from Initiation to Completion of Radiotherapy in Women with Cervical Cancer using GANs | May 2024 - Present
+- Collaborating with a team of researchers to use AI (Generative Adversarial Networks) for predicting bladder volume variations in cervical cancer patients undergoing radiotherapy.
+- Collected and pre-processed CT scan data for training AI models to enhance radiotherapy treatment planning.
+- Developed an AI model to accurately predict future bladder volume changes and assist in improving radiation targeting while minimizing side effects.
+- Employed medical imaging techniques and quantitative analysis to optimize treatment efficacy in cancer therapy.""")
 
 pdf.add_section('Volunteer Work', 
 """Rotaract Club of Western Suburbs, Joint Secretary (June 2023 - June 2024)
@@ -75,10 +80,7 @@ Core Council, LAIMUN Society
 - Extended an international MUN society's roots to India and now serve in the capacity of core council.
 
 Hackathons
-- Participated in multiple hackathons and secured runners-up position in the same.
-
-Model United Nations (MUNs)
-- Avid MUNner, delegated over 40 MUNs and chaired over 15 MUNs pan India, with recognition from multiple organizations.""")
+- Participated in multiple hackathons and secured runners-up position in the same.""")
 
 # Save the PDF to a specified path
 output_path = "E:\\Rouhin Projects\\Resume\\Rouhin_Gandhi_Resume.pdf"
