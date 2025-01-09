@@ -32,7 +32,7 @@ pdf.ln(10)
 pdf.add_section('Education', 
     "SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering\n"
     "BTech, Computer Engineering (2022 - 2026)\n"
-    "- Relevant Coursework: Algorithms, Data Structures, Web Development")
+    "- Relevant Coursework: Algorithms, Data Structures, Web Development, Financial Institutes Markets instruments and systems, Accounting")
 
 pdf.add_section('Experience', 
     "GISE Hub, IIT-Bombay\nGeospatial and Software Intern (May 2024 - July 2024)\n"
@@ -44,11 +44,15 @@ pdf.add_section('Experience',
     "- Managed client acquisition processes, ensuring smooth onboarding and satisfaction.\n"
     "- Streamlined administrative tasks, improving team efficiency and coordination in project delivery.\n\n")
 
+# Projects section with detailed descriptions
 pdf.add_section('Projects', 
-    "Bladder Filling Prediction in Radiotherapy using GANs (Sep 2024 - Present)\n"
-    "- Collaborating on an AI-driven research project to predict bladder volume changes during radiotherapy.\n"
-    "- Preprocessing medical imaging data for GAN training, ensuring high-quality input for model accuracy.\n"
-    "- Developing and fine-tuning predictive models to assist radiation oncologists in minimizing side effects and optimizing treatment plans.")
+"""1. Scalable and Automated Waterbody Analysis through Multi-Index Satellite Imagery on Google Earth Engine 
+   Co-authored a research project aimed at extracting and quantifying water bodies over time using the Normalized Difference Water Index (NDWI), NDVI, and NBR, applied to Sentinel-2 satellite data. The project included cloud masking, edge detection, and entropy-based texture analysis to assess water heterogeneity. This methodology was tested over Bhandara District, India (2017-2024), demonstrating how cloud-based platforms like Google Earth Engine can facilitate large-scale, high-frequency environmental monitoring.
+   
+2. Bladder Filling from Initiation to Completion of Radiotherapy in Women with Cervical Cancer using GANs (Ongoing)
+   Led a research project focused on predicting bladder volume changes during cervical cancer radiotherapy. Utilized Generative Adversarial Networks (GANs) to simulate and analyze bladder filling dynamics, aiming to improve patient preparation and treatment planning. This project required a deep understanding of AI model development and medical imaging processing, showcasing the intersection of machine learning and healthcare technology.
+3. Predict the relation of bond prices with the Foreign institutional investment in the Indian market (Ongoing)
+   Developed a project to predict the relationship between bond prices and Foreign Institutional Investment (FII) in the Indian market. Utilized quantitative techniques and statistical analysis to identify patterns and correlations between bond prices and FII, providing insights for investment strategies and risk management. This project required a deep understanding of financial markets and data analysis, showcasing the intersection of quantitative finance and investment research.""")
 pdf.add_section('Volunteer Work', 
     "Rotaract Club of Western Suburbs, Joint Secretary (2023 - 2024)\n"
     "Rotaract Club of Bombay West, Partners In Services Director (2022 - 2023)")
